@@ -1,6 +1,12 @@
-body {
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.background {
  background-image: url("https://aaronjhaj.github.io/image/Love-heart-hands.jpg");
+  height: 100%; 
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center; 
+  background-size: cover;
 }
