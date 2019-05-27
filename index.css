@@ -4,7 +4,7 @@ body, html {
 }
 
 .background {
- background-image: url("https://aaronjhaj.github.io/image/Love-heart-hands.jpg");
+  background-image: url("https://aaronjhaj.github.io/image/Love-heart-hands.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
