@@ -14,7 +14,7 @@ body, html {
 
 .top-navbar {
   display: flex;
-  float:right;
+  float: right;
 }
 
 .top-navbar a {
