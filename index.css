@@ -3,6 +3,13 @@ body, html {
   margin: 0;
 }
 
+.navbar {
+  overlow: hidden;
+  background: transparent;
+  font-family:'PT Sans Narrow', sans-serif;
+}
+
+
 .background {
  background-image: url("https://aaronjhaj.github.io/image/Love-heart-hands.jpg");
   height: 100%; 
