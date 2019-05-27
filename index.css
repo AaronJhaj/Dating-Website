@@ -3,17 +3,27 @@ body, html {
   margin: 0;
 }
 
-.navbar {
-  overlow: hidden;
-  background: transparent;
-  font-family:'PT Sans Narrow', sans-serif;
-}
-
-
 .background {
  background-image: url("https://aaronjhaj.github.io/image/Love-heart-hands.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.top-navbar {
+  display: flex;
+  float:right;
+}
+
+.top-navbar a {
+  color: black;
+  padding: 14px 18px;
+  text-decoration: none;
+  
+}
+.top-navbar a:hover {
+  border: 2px solid black;
+  font-weight: bold;
 }
