@@ -4,7 +4,7 @@ body, html {
 }
 
 .background {
-  background-image: url("https://aaronjhaj.github.io/image/Love-heart-hands.jpg");
+ background-image: url("https://aaronjhaj.github.io/image/Love-heart-hands.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -14,16 +14,41 @@ body, html {
 
 .top-navbar {
   display: flex;
-  float: right;
+  float:right;
+  font-family:'PT Sans Narrow', sans-serif;
+  padding: 10px;
 }
 
 .top-navbar a {
   color: black;
   padding: 14px 18px;
   text-decoration: none;
-  
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
 }
 .top-navbar a:hover {
-  border: 2px solid black;
+  border: 2px solid white;
   font-weight: bold;
+  color: white;
+}
+.signup {
+  position: absolute;
+  top: 56%;
+  left: 49.7%;
+  transform: translate(-50%, -50%);
+  font-family:'PT Sans Narrow', sans-serif;
+}
+.signup a {
+  color: black;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 35px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.signup a:hover {
+  border: 2px solid white;
+  font-weight: bold;
+  color: white;
 }
